@@ -1,0 +1,21 @@
+instalar y hacer GNS3.
+
+
+hacer el ejercicio hecho la foto en clase:
+
+- 1º router con un NAT1 marca MikrotikCHR7.10.1-1 con la ip 192.168.122.105
+	esta iene una Vlan llamada Vlan10 de la cual cuelga un switch
+	La Vlan10 tiene como direccion ip 192.168.10.1/24 clase D.
+	Aplicarle el DHCP para la administracion de ips a los nodos.
+- 2º un Switch normal con 10 salidas.
+- 3º 3 nodos:
+	- Pc (PC1)
+	- Navegadorwebterm-1
+	- Pc (Ubuntu_Pruebasclonar-1)
+
+creo la NAT para tener la tabla registrada en todos los nodos.
+
+creo un protocolo de firewall para poder permitir la salida de toda la red
+Vlan10.
+
+
