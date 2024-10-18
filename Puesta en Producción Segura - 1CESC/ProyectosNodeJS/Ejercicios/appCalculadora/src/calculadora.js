@@ -44,6 +44,8 @@ class Calculadora {
    return date1<date2;
   }
 
+  
+
 }
 // para exportar la clase y poder usarla desde otro archivo.
 module.exports = Calculadora;
